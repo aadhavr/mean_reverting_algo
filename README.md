@@ -21,9 +21,9 @@ Before running this script, ensure that you have the following dependencies inst
 - pandas_datareader
 
 You can install the dependencies using the following command:
-'''
+```
 pip install pandas numpy yfinance matplotlib pandas_datareader
-'''
+```
 
 ## Usage
 
