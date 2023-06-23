@@ -47,6 +47,7 @@ This script aims to simulate a mean reversion strategy based on historical data 
 To address lookahead bias, this script employs the following measures:
 
    -  Mean Calculation: The mean of the stock's closing prices is calculated using a specific time frame, as provided by the user. This mean calculation is done using historical data up until the given end date, without incorporating any future information. By using historical data, the script aims to capture the underlying trend within the specified time frame.
+
    -  Backtesting: The backtesting of the strategy is performed using a different time frame, also specified by the user. This separation of time frames ensures that the strategy is evaluated based on historical data that is independent of the mean calculation period. The backtesting is conducted using data starting from the end of the mean calculation period until the end date, thus avoiding the use of future information during the testing phase.
 
 By utilizing distinct time frames for mean calculation and backtesting, this script attempts to mitigate the risk of lookahead bias and provide a more realistic assessment of the strategy's performance.
