@@ -1,4 +1,8 @@
-# Mean Reversion Strategy
+# Mean Reversion Strate
+
+![image](https://github.com/aadhavr/mean_reverting_algo/assets/32024444/0edfae4c-a545-4c75-931b-b8213e7e8fd7)
+
+
 
 This script implements a mean reversion strategy for a given stock. It calculates the z-scores for the stock's price and generates entry and exit signals based on predefined thresholds. The script also performs a backtest on the strategy and visualizes the returns.
 
