@@ -1,4 +1,4 @@
-# Mean Reversion Strate
+# Mean Reversion Strategy
 
 ![image](https://github.com/aadhavr/mean_reverting_algo/assets/32024444/0edfae4c-a545-4c75-931b-b8213e7e8fd7)
 
